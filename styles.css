@@ -10,6 +10,7 @@ Give a paragraph on your page the id of testP and a class name of funParagraph. 
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     background-color: #000;
     color: #fff;
     line-height: 1.8;
@@ -19,18 +20,23 @@ body {
 }
 
 header {
+    background-color: #0000ff;
     text-align: center;
     margin-bottom: 20px;
+    border-radius: 5px;
+
 }
 
 #mainHeading {
-    color: #ff0000;
+    /* color: #ff0000; */
+    color: red;
     font-size: 32px;
 }
 
 .funParagraph {
     background-color: #0000ff;
-    color: #00ff00;
+    /* color: #00ff00; */
+    color: green;
     /*border: 2px; solid: #fff; not showing up, troubleshoot later */ 
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
@@ -38,6 +44,10 @@ header {
     line-height: 1.8;
     margin-bottom: 20px;
     border-radius: 5px;
+}
+
+h1 {
+    font-size: 36px;
 }
 
 h2 {
@@ -49,3 +59,49 @@ h2 {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+ nav ul li a:hover{
+    background-color: yellow;
+    color: #000;
+ }
+
+ main {
+    margin-bottom: 20px;
+ }
+
+ main img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+ }
+
+ p {
+    margin-bottom: 20px;
+ }
+
+ article {
+    margin-bottom: 40px;
+ }
+
+ article img {
+    display: block;
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+ }
