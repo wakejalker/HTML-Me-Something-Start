@@ -24,13 +24,13 @@ header {
 }
 
 #mainHeading {
-    color: #fff;
+    color: #ff0000;
     font-size: 32px;
 }
 
 .funParagraph {
     background-color: #0000ff;
-    color: #fff;
+    color: #00ff00;
     /*border: 2px; solid: #fff; not showing up, troubleshoot later */ 
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
