@@ -1,1 +1,51 @@
-/* Write your CSS here! */
+/*
+Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css and give it a styling of your choosing.
+ */
+/* Reset default browser styles */ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.8;
+    margin: 8px;
+    display: block;
+    padding:20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mainHeading {
+    color: #fff;
+    font-size: 32px;
+}
+
+.funParagraph {
+    background-color: #0000ff;
+    color: #fff;
+    /*border: 2px; solid: #fff; not showing up, troubleshoot later */ 
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    background-color: #808080;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
